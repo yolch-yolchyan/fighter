@@ -48,7 +48,7 @@ save the game in the middle of the fight and simply revert the same stage and co
 This game could be easily extended. For example, if we want to have option to remove weapon from the weapons list,we can create a new action class
 and return it in any module as a supported action for that module.
 
-If we want to have a new module, for instance, we want to buy and sell weapons we can simple create BuyerSellerModule and
+If we want to have a new module to buy and sell weapons we can simple create BuyerSellerModule and
 extend it from AbstractModuleRunner class and add supported actions for the BuyerSellerModule.
 
 ## Important Note
